@@ -3,22 +3,42 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
-    text-align: center;
-    background-color: blueviolet;
+
+.navbar {
+    /*background-color: red;*/
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    height: 25px;
+    font-size: 20px;
 }
 
-div {
-    text-align: center;
-    background-color: aqua;
-    width: 50%;
+.navigation li {
     float: left;
-    height: 100px;
+    margin-left: 10px;
+}
+
+.navigation a {
+    color: grey;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #000;
+}
+
+.main {
+    /*background-color: aqua;*/
+    clear: both;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
 }
 
 footer {
+    background-color: #000;
+    color: #fff;
     text-align: center;
-    background-color: grey;
-    width: 100%;
     bottom: 0;
 }
