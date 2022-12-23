@@ -42,3 +42,16 @@ footer {
     text-align: center;
     bottom: 0;
 }
+
+@media screen and (max-width: 800px) {
+    .name {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .navigation {
+        font-size: 15px;
+        width: 100%;
+    }
+}
